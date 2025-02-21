@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Замовлення кавуна Кавун шоп</title>
+</head>
+  <header>
+    <h1 style="font-size:300%;">Kavun Shop</h1>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="order.html">Замовити кавун</a></li>
+                <li><a href="response.html">Надіслати відгук</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+  </header>
+  <body>
+    <div class="backorder">
+      <label>Ім'я: </label><input type='text' id='fName' class = "inp" name="fName" required><br>
+     <label>Прізвище: </label><input type='text' id='lName' name="lName" class = "inp" required><br>
+     <label>Рік народження: </label><input type='text' id='Yob' name="Yob" class = "inp" required><br>
+      <label>Спосіб доставки:</label><br>    
+  <input type="radio" id="new mail" name="mail type" value="new mail" class = "inp1">
+  <label for="new mail">Нова пошта</label>
+  <input type="radio" id="ukr mail" name="mail type" value="ukr mail" class = "inp1">
+  <label for="ukr mail">Укрпошта</label><br>
+        <label>Додаткові послуги:</label><br>   
+  <input type="checkbox" id="service1" name="srv1" value="courier" class = "inp1">
+  <label for="ins1">Кур'єр </label>
+  <input type="checkbox" id="service2" name="srv2" value="insurance" class = "inp1">
+  <label for="ins2">Страхування </label><br>
+            <label>Сорт кавуна:</label><select id="price" name="price" class = "inp2">
+          <option value="Baronessa">Баронесса</option>
+          <option value="Titania">Тітанія</option>
+          <option value="Kidman">Кідман</option>
+          <option value="Amina">Аміна</option>
+</select><br>
+           <input type='button' id='submit' value='Sumbit' class = "inp3">
+      <input type="reset" value="Reset" id='reset' class = "inp3">
+      </div>
+  </body>
