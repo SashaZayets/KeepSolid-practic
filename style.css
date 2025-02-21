@@ -22,18 +22,6 @@ ul li a {
   margin-left: 300px;
 }
 
-.butn0{
-  font-size:200%;
-  padding: 40px 100px;
-  cursor: pointer;
-  background-color: #7FFF00;
-  border: 2px solid black;
-  color: black;
-  position:relative;
-  bottom:200px;
-  left:800px;
-}
-
 body{
 background-color:#E9967A;
 }
