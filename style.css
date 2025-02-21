@@ -138,9 +138,10 @@ background-color:#DEB887;
   border: 2px solid black;
   color: black;
   position:relative;
-  left:800px;
-  bottom:160px;
+  left:720px;
+  bottom:100px;
     border-radius: 15px 15px;
+        text-decoration: none;
 }
 
 .butn:hover {
@@ -148,8 +149,8 @@ background-color:#DEB887;
   color: #8B0000;
   transition-duration: 0.1s;
   padding: 50px 120px;
-    left:790px;
-  bottom:170px;
+    left:710px;
+  bottom:100px;
 }
 
 .backorder{
