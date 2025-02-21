@@ -237,4 +237,5 @@ background-color:#FFE4C4;
 
 .contacts li a{
   display:grid;
+  margin: 30px auto;
 }
