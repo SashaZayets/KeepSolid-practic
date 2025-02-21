@@ -235,7 +235,7 @@ background-color:#FFE4C4;
   border-radius: 20px 20px;
 }
 
-.contacts li a{
+.contacts li{
   display:grid;
   margin: 30px auto;
 }
