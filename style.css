@@ -119,26 +119,27 @@ background-color:#DEB887;
 }
 
 .butn{
-  font-size:200%;
+  font-family: 'Franxurter Totally', sans-serif;                                                
+  font-size:260%;
   padding: 40px 100px;
   cursor: pointer;
   background-color: #7FFF00;
   border: 2px solid black;
   color: black;
   position:relative;
-  left:720px;
-  bottom:100px;
-  border-radius: 15px 15px;
-  text-decoration: none;
+  left:690px;
+  bottom:110px;
+    border-radius: 15px 15px;
+        text-decoration: none;
 }
 
-.butn:hover {
-  background-color: #006400;
-  color: #8B0000;
-  transition-duration: 0.1s;
-  padding: 50px 120px;
-  left:710px;
-  bottom:100px;
+.butn:hover{
+  background-color: #f70202;
+  color: white;
+  transition-duration: 0.4s;
+  padding: 40px 100px;
+    left:690px;
+  bottom:105px;
 }
 
 .backorder{
